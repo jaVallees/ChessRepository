@@ -17,7 +17,7 @@ plt.xlabel('Release Year')
 plt.ylabel('Frequency')
 plt.title('Distribution of Netflix Content Release Years 90 - 99')
 plt.show()
-
+y
 # Most frequent movie duration
 duration = netflix_90s['duration'].mode()[0]  # Get the most frequent duration
 
@@ -32,3 +32,4 @@ for index, row in netflix_90s.iterrows():
 # Print the count
 print("The most frequent movie duration is:", str(duration) + " Minutes")
 print("Short Action Movies Count:", short_movie_count)
+print("hello")
