@@ -17,7 +17,6 @@ plt.xlabel('Release Year')
 plt.ylabel('Frequency')
 plt.title('Distribution of Netflix Content Release Years 90 - 99')
 plt.show()
-y
 # Most frequent movie duration
 duration = netflix_90s['duration'].mode()[0]  # Get the most frequent duration
 
